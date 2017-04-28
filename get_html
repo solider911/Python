@@ -1,0 +1,16 @@
+#!/usr/bin/python
+#Filename:get_html.py
+
+#import urllib2
+#response = urllib2.urlopen('http://www.baidu.com/')
+#response = urllib2.urlopen('http://openbarrage.douyutv.com')
+
+#html = response.read()
+#print(html)
+
+website = 'http://www.cnblogs.com/txw1958/'
+print(website)
+
+website_bytes_utf8 = website.encode(encoding='utf-8')
+print(type(website_bytes_utf8))
+print(website_bytes_utf8)
